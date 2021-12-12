@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Marvel Heroes</string>
+    <string name="app_name">Marvel Universe</string>
     <!--All about Top Bar-->
     <string name="page_title">Characters</string>
     <string name="sign_in"><u>Sign in</u></string>
