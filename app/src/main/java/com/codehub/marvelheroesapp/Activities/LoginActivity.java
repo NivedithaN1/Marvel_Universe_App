@@ -210,18 +210,18 @@ public class LoginActivity extends AppCompatActivity {
                 .setSubtitle("Log in using your fingerprint")
                 .setNegativeButtonText("Cancel")
                 .build();
-
         fingerPrint = findViewById(R.id.fingerprt);
         fingerPrint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 biometricPrompt.authenticate(promptInfo);
             }
         });
     }
-
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);
     }
+
 }
