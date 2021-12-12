@@ -94,6 +94,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        super.onActivityResult(notificationManager);
+
         db = new NewDbUsers(getApplicationContext());
 
         communication = new Dialog(this);
